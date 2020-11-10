@@ -7,8 +7,9 @@
 * Returns a list of vertices, in CCW order. In most cases, first point will be middle left one.
 
 # Config:
+
 Parameter | Description
----|---
+-|-
 * img_num | how many images to generate
 * distort  | whether to apply image distortion
 * numVerts  | number of polygon vertex
@@ -30,6 +31,9 @@ Also usual stuff: python-openCV, numpy, pandas
 # Project structure
 
 > poly_gen.py
+
 > poly_gen_config.yaml
+
 > dir
+
 >>images
