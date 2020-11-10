@@ -46,7 +46,7 @@
 
 For image distortion latest ```imgaug``` is required:
 
-```!pip install git+https://github.com/aleju/imgaug.git```
+```pip install git+https://github.com/aleju/imgaug.git```
 
 Also usual stuff: python-openCV, numpy, pandas, yaml
 
