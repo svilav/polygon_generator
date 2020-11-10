@@ -7,15 +7,17 @@
 * Returns a list of vertices, in CCW order. In most cases, first point will be middle left one.
 
 # Config:
-* img_num            # how many images to generate
-* distort            # whether to apply image distortion
-* numVerts           # number of polygon vertex
-* dir                # dir containing 'images" folder
-* collin_coef        # [0,1] how far angles shall be from 180°
-* aveRadius          # mean for sampling radii
-* angular_variance   # [0,1] the variance in angles
-* radii_variance     # [0,1] the variance in length
-* input_size         # image size will be (input_size,input_size)
+Parameter | Description
+---|---
+* img_num | how many images to generate
+* distort  | whether to apply image distortion
+* numVerts  | number of polygon vertex
+* dir        | dir containing 'images" folder
+* collin_coef | [0,1] how far angles shall be from 180°
+* aveRadius | mean for sampling radii
+* angular_variance | [0,1] the variance in angles
+* radii_variance | [0,1] the variance in length
+* input_size | image size will be (input_size,input_size)
 
 # Requirements:
 
