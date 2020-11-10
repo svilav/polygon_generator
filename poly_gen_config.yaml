@@ -1,0 +1,9 @@
+img_num: 10             # how many images to generate
+distort: True           # whether to apply image distortion
+numVerts: 4             # number of polygon vertex
+dir: 'data'             # dir containing 'images" folder
+collin_coef: 1          # [0,1] how far angles shall be from 180°
+aveRadius: 50           # mean for sampling radii
+angular_variance: 0.5   # [0,1] the variance in angles
+radii_variance: 0.5     # [0,1] the variance in length
+input_size: 480         # image size will be (input_size,input_size)
