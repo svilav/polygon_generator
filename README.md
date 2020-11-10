@@ -48,11 +48,11 @@
 
 ```git clone https://username:password@github.com/Sviatoslav-Lavrinchuk/polygon_generator.git```
 
-```cd Polygon_generator```
+```cd polygon_generator```
 
 ## PIP
 
-```pip install -r requirements.txt```
+```pip install --upgrade -r requirements.txt```
 
 
 ## Run
