@@ -42,13 +42,26 @@
 | radii_variance: | [0,1] the variance in length|
 | input_size: | image size will be (input_size,input_size)|
 
-# Requirements:
+# Installation:
 
-For image distortion latest ```imgaug``` is required:
+## Clone this repo
 
-```pip install git+https://github.com/aleju/imgaug.git```
+```git clone https://github.com/Sviatoslav-Lavrinchuk/Polygon_generator.git```
+```cd Polygon_generator```
 
-Also usual stuff: python-openCV, numpy, pandas, yaml
+## PIP
+
+```pip install -r requirements.txt```
+
+
+## Run
+
+First edit "poly_gen_config.yaml".
+
+Then run:
+```python poly_gen.py```
+
+
 
 # Project structure
 
