@@ -46,7 +46,7 @@
 
 ## Clone this repo
 
-```git clone https://github.com/Sviatoslav-Lavrinchuk/Polygon_generator.git```
+```git clone https://github.com/Sviatoslav-Lavrinchuk/polygon_generator.git```
 ```cd Polygon_generator```
 
 ## PIP
