@@ -5,25 +5,25 @@
 * Additional verifications are performed to ensure simple polygons and no collinearity between adjacent vertex. Points are in clockwise order. In most cases, first point will be middle left one.
 * Images are generated with random nubmer of the following distortions:
 
->1. GaussianBlur(sigma=(0.0, 4.0)),
+1. GaussianBlur(sigma=(0.0, 4.0)),
 
->2. MotionBlur(k=15),
+2. MotionBlur(k=15),
 
->3. MultiplyElementwise((0.5, 1.5), per_channel=0.5), # Noise inside figure
+3. MultiplyElementwise((0.5, 1.5), per_channel=0.5), # Noise inside figure
 
->4. Multiply((0.5, 1.5)), #Brightness
+4. Multiply((0.5, 1.5)), #Brightness
 
->5. Dropout(p=(0, 0.2)), #Random pxls to 0
+5. Dropout(p=(0, 0.2)), #Random pxls to 0
 
->6. CoarseDropout((0.0, 0.05), size_percent=(0.02, 0.25)), #Big rectangular dropout
+6. CoarseDropout((0.0, 0.05), size_percent=(0.02, 0.25)), #Big rectangular dropout
 
->7. BlendAlphaSimplexNoise(iaa.EdgeDetect(1.0), sigmoid_thresh=iap.Normal(10.0, 5.0)), #Blurred blobs
+7. BlendAlphaSimplexNoise(iaa.EdgeDetect(1.0), sigmoid_thresh=iap.Normal(10.0, 5.0)), #Blurred blobs
 
->8. BlendAlphaHorizontalLinearGradient(iaa.AveragePooling(11), start_at=(0.0, 1.0), end_at=(0.0, 1.0)), #Massive blend
+8. BlendAlphaHorizontalLinearGradient(iaa.AveragePooling(11), start_at=(0.0, 1.0), end_at=(0.0, 1.0)), #Massive blend
 
->9. PiecewiseAffine(scale=(0.01, 0.02)), #Tiny curve
+9. PiecewiseAffine(scale=(0.01, 0.02)), #Tiny curve
 
->10. AveragePooling([2, 8])
+10. AveragePooling([2, 8])
 
 * Under defualt setting, generation of 1k images takes 14 sec.
 
@@ -48,7 +48,7 @@ For image distortion latest ```imgaug``` is required:
 
 ```!pip install git+https://github.com/aleju/imgaug.git```
 
-Also usual stuff: python-openCV, numpy, pandas
+Also usual stuff: python-openCV, numpy, pandas, yaml
 
 # Project structure
 
