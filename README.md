@@ -1,13 +1,13 @@
 # Polygon generator
 
-*The algorithm starts with the random point, then creates the polygon by sampling points on a circles centered at the point. 
-*Randon variance is added by random angles between sequential points and random radii from the centre to each point.
-*Additional verifications are performed to ensure simple polygons and no collinearity between adjacent vertex.
-*Under defualt setting, generation of 1k images takes 14 sec.
-*Returns a list of vertices, in CCW order. In most cases, first point will be middle left one.
+* The algorithm starts with the random point, then creates the polygon by sampling points on a circles centered at the point. 
+* Randon variance is added by random angles between sequential points and random radii from the centre to each point.
+* Additional verifications are performed to ensure simple polygons and no collinearity between adjacent vertex.
+* Under defualt setting, generation of 1k images takes 14 sec.
+* Returns a list of vertices, in CCW order. In most cases, first point will be middle left one.
 
 # Config:
-img_num            # how many images to generate
+*img_num            # how many images to generate
 distort            # whether to apply image distortion
 numVerts           # number of polygon vertex
 dir                # dir containing 'images" folder
